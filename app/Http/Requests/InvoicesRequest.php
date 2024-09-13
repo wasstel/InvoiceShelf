@@ -59,7 +59,6 @@ class InvoicesRequest extends FormRequest
             'total' => [
                 'integer',
                 'numeric',
-                'max:99999999',
                 'required',
             ],
             'tax' => [
